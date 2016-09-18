@@ -15,6 +15,12 @@ multiple_of_3 = partial(multiple_of, 3)
 multiple_of_5 = partial(multiple_of, 5)
 
 def robot(pos):
+    """
+    Robot receive a number as a parameter and
+    return 'fizz' if the number is multiple_of_3,
+    return 'buzz' if the number is multiple_of_5,
+    return 'fizzbuzz' if the number is multiple_of both
+    and finally return the own number otherwise."""
     
     say = str(pos)
     
